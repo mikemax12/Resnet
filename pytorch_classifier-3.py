@@ -55,7 +55,7 @@ print(args.filename)
 import os
  
 train_dir = os.path.join(args.filename, 'train')
-valid_dir = os.path.join(args.filename, 'valid')
+valid_dir = os.path.join(args.filename, 'val')
 test_dir= os.path.join(args.filename, 'test')
 
 
